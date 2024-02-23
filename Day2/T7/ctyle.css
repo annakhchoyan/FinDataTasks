@@ -1,0 +1,34 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    background-color: rgb(110, 108, 108);
+}
+
+button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(242, 123, 169);
+    cursor: pointer;
+    position: absolute;
+}
+
+p {
+    padding: 10px;
+    margin-bottom: 200px;
+}
+
+button:hover {
+    color: rgb(249, 252, 254);
+    background-color: rgb(246, 136, 178);
+}
