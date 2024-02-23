@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(219, 192, 19);
+}
+
+button {
+    padding: 20px 30px;
+    border: 1px solid rgb(47, 3, 7);
+    border-radius: 10px;
+    color: rgb(47, 3, 7);
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid rgb(145, 74, 80);;
+    color: rgb(116, 42, 48);
+    background-color: rgb(255, 245, 230);
+}
+

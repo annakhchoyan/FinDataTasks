@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(45, 2, 57);
+}
+
+header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(19, 1, 24);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+li {
+    padding: 15px;
+}
+
+a {
+    color: rgb(180, 162, 186);
+    text-decoration: none;
+}
+
+li:hover {
+    color: rgb(54, 5, 70, 0.5);
+    background-color: rgb(45, 2, 57, 0.5);
+}
+
+a:hover {
+    color: rgba(184, 149, 195, 0.5);
+}

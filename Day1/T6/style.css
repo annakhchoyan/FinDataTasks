@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 100px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    background-color: rgb(105, 56, 14);
+}
+
+.div1, .div2 {
+    padding: 10px;
+}
+
+input {
+    padding: 7px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color:rgb(249, 44, 164);
+    background-color: bisque;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 5px;
+    color: bisque;
+    background-color: rgb(247, 73, 151);
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(255, 240, 221);
+    background-color: rgb(255, 98, 168);
+}
+
+
+
