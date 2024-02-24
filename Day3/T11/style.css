@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    color: rgb(69, 39, 3);
+    background-color: rgb(221, 176, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    max-width: 300px;
+    margin: 50px auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+input {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+#submit {
+    margin-top: 15px;
+    color: bisque;
+    font-size: 17px;
+    background-color: rgb(69, 39, 3);;
+}
+
+.error {
+    color: rgb(158, 14, 14);
+    font-size: 0.8em;
+    
+}
