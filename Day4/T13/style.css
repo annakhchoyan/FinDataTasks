@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 150px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(244, 98, 0);
+    background-color: rgb(40, 2, 46);
+}
+
+#tabsContent {
+    margin: 20px;
+}
+
+.tab {
+    display: none;
+}
+
+.active-tab {
+    display: block;
+}
+
+.tab-button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(194, 63, 214);
+    background-color: #f3f88b;
+}

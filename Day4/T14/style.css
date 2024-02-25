@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: blanchedalmond;
+    background-color: rgb(123, 127, 235);
+    gap: 20px;
+}
+
+input {
+    margin: 5px;
+    padding: 3px;
+    border: none;
+    border-radius: 2px;
+    color: rgb(139, 0, 225);
+}
+
+button {
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(126, 30, 221);
+}
+
+#saveMessage {
+    display: none;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: rgb(185, 3, 3);
+    font-size: small;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 5px;
+}

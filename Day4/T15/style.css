@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #545252;
+    background-image: url('https://wallpapers.com/images/hd/magical-forest-1920-x-1080-background-wd89ng17hcrvcukl.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(51, 51, 51, 0.8);
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar .icon {
+    display: none;
+    color: white;
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a:not(.icon) {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+
+    .navbar.responsive a.icon {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .navbar.responsive a {
+        display: block;
+        text-align: left;
+    }
+}
