@@ -1,0 +1,21 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 205);
+    
+}
+
+.comment {
+    margin-left: 20px;
+    border-left: 3px solid #f19fd4;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+

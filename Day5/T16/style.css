@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 100px;
+    background-color: rgb(170, 175, 195);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid rgb(0, 13, 67);
+    padding: 8px;
+    text-align: left;
+    color: rgb(0, 13, 67);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+th {
+    border: 2px solid rgb(0, 13, 67);
+    background-color: rgba(242, 242, 242, 0.961);
+    color:rgb(33, 43, 83);
+}
